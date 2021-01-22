@@ -1,4 +1,4 @@
-# timing-events
+# Vue Timing Events
 
 ## Project setup
 ```
