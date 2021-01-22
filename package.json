@@ -1,9 +1,11 @@
 {
   "name": "vue-timing-events",
   "version": "0.1.0",
+  "description": "Cleanup timing events on component destroy",
   "author": {
     "name": "Danny Pham",
-    "email": "dannynpham11@gmail.com"
+    "email": "dannynpham11@gmail.com",
+    "url": "dannynpham.tech"
   },
   "keywords": [
     "vue",
