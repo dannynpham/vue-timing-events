@@ -8,7 +8,7 @@ Automatically cleans up timers and event listeners on component beforeDestroy
 $ npm install -D vue-timing-events
 
 # For Yarn, use the command below.
-yarn add vue-timing-events
+yarn add -D vue-timing-events
 ```
 
 # Usage
