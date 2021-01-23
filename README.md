@@ -1,11 +1,14 @@
-# Vue Timing Events [![Build Status](https://travis-ci.org/dannynpham/vue-timing-events.svg?branch=main)](https://travis-ci.org/dannynpham/vue-timing-events)
+# Vue Timing Events [![Build Status](https://travis-ci.org/dannynpham/vue-timing-events.svg?branch=main)](https://travis-ci.org/dannynpham/vue-timing-events) ![License](https://badgen.net/github/license/dannynpham/vue-timing-events) ![Library size](https://badgen.net/bundlephobia/minzip/vue-timing-events) ![Dependencies](https://badgen.net/david/dep/dannynpham/vue-timing-events)
 
-> It automatically cleans up timers and event listeners on component beforeDestroy
+> Automatically cleans up timers and event listeners on component beforeDestroy
 
 ## Install
 
 ```
-$ npm install vue-timing-events
+$ npm install -D vue-timing-events
+
+# For Yarn, use the command below.
+yarn add vue-timing-events
 ```
 
 # Usage
