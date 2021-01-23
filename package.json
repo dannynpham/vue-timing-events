@@ -12,7 +12,10 @@
     "vuejs",
     "plugin",
     "timing",
-    "events"
+    "events",
+    "listeners",
+    "setInterval",
+    "setTimeout"
   ],
   "license": "MIT",
   "main": "./dist/vue-timing-events.umd.min.js",

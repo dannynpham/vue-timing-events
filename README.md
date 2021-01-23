@@ -8,13 +8,13 @@ Automatically cleans up timers and event listeners on component beforeDestroy
 $ npm install -D vue-timing-events
 
 # For Yarn, use the command below.
-yarn add -D vue-timing-events
+$ yarn add -D vue-timing-events
 ```
 
 # Usage
 
 ```js
-import Vue from "vue";
+import Vue from 'vue';
 import VueTimingEvents from 'vue-timing-events';
 
 Vue.use(VueTimingEvents);
@@ -24,15 +24,19 @@ Vue.use(VueTimingEvents);
 // Somecomponent.vue
 export default {
   created() {
-    this.$setInterval(this.doInterval, 2000);
-    this.$addEventListener("resize", this.onResize, { passive: true });
+    this.$setInterval(this.intervaling, 2000);
+    this.$setTimeout(this.timingOut, 2000);
+    this.$addEventListener('resize', this.onResize, { passive: true });
   },
   methods: {
-    doInterval() {
-      console.log("Are we there yet?");
+    intervaling() {
+      console.log('Intervaled');
+    },
+    timingOut() {
+      console.log('Timed out');
     },
     onResize() {
-      console.log("Hey stop triggering so much layout/reflow. :(");
+      console.log('Resized');
     }
   }
 }
