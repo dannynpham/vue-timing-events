@@ -1,4 +1,4 @@
-# Vue Timing Events [![Build Status](https://travis-ci.org/dannynpham/vue-timing-events.svg?branch=master)](https://travis-ci.org/dannynpham/vue-timing-events)
+# Vue Timing Events [![Build Status](https://travis-ci.org/dannynpham/vue-timing-events.svg?branch=main)](https://travis-ci.org/dannynpham/vue-timing-events)
 
 > It automatically cleans up timers and event listeners on component beforeDestroy
 
